@@ -15,7 +15,7 @@ const MyBird = ({ url, name, picId, userId }) => {
         <Card.Img variant="top" src={url} />
         <Card.Body>
           <Card.Title>{name}</Card.Title>
-          <Button onClick={handlePictureRemove} variant="outline-dark">Remove</Button>
+          <Button onClick={handlePictureRemove} variant="outline-dark">Удалить</Button>
         </Card.Body>
       </Card>
     </Col>
